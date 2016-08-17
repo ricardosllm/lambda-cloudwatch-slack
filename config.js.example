@@ -1,0 +1,11 @@
+var config = {};
+
+config.slack = {
+  channel: '#dev',
+  unencryptedHookUrl: 'hooks.slack.com/services/AAAAAAAAA/BBBBBBBBB/CCCCCCCCCCCCCCCCCCCCCCCC',
+  username: null,
+  orgIcon: null,
+  kmsEncyptedHookUrl: null
+};
+
+module.exports = config;
